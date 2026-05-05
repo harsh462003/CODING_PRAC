@@ -1,0 +1,4 @@
+experiment,lr,batch_size,optimizer,activation,padding,epochs_run,best_val_acc,final_train_loss,final_val_loss,test_accuracy,macro_precision,macro_recall,macro_f1,training_time_s,trainable_params
+bs_16,0.001,16,Adam,ReLU,none,5,93.5333,0.166,0.1739,93.6,93.5664,93.6,93.547,1061.13,4338054
+bs_32,0.001,32,Adam,ReLU,none,5,93.7333,0.1521,0.1691,93.54,93.5803,93.54,93.4482,552.2,4338054
+bs_64,0.001,64,Adam,ReLU,none,5,93.8333,0.1384,0.173,93.57,93.7035,93.57,93.5495,362.66,4338054
